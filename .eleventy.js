@@ -2,9 +2,6 @@ const markdownIt = require('markdown-it');
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
 
-
-
-
 module.exports = function(config) {
     require("dotenv").config();
     config.addPassthroughCopy('en-us/assets');
