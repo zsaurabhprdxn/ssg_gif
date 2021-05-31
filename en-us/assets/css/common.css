@@ -7,4 +7,25 @@ body {
     /* background-color:rgb(13, 13, 13); */
 }
 
-main {padding-top: 3%;}
+main { padding-top: 3%;}
+
+.common .wrapper p {
+    color: gray;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.common .wrapper a {
+    color: rgb(255, 103, 102);
+    font-size: 12px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.common .wrapper a:hover {
+    color: rgb(150, 52, 250);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.page-404-container img { width: 25%; }

@@ -20,7 +20,8 @@ module.exports = function(config) {
     .use(markdownItAttrs)
     .use(markdownItContainer, "gif-gallery")
     .use(markdownItContainer, "gif-pagination")
-    .use(markdownItContainer, "content");
+    .use(markdownItContainer, "content")
+    .use(markdownItContainer, "page-404-container");
 
     config.setLibrary("md", markdownLib);
 
