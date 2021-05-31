@@ -1,3 +1,2 @@
 # redirect index request /en-us
 /                                       /en-us                                        301
-/en-us/*                                /404/                                         404
