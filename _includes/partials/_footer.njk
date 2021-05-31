@@ -1,0 +1,16 @@
+<footer>
+    <div class="wrapper">
+        <div class="footer-menu">
+            <ul>
+                {% for item in menu.items %}
+                    <li>
+                        <a href='{{ item.url }}' title='{{ item.title }}'>{{item.title}}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; Copyrighted 2021</span>
+        </div>
+    </div>
+</footer>

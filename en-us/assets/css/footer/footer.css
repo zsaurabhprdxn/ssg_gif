@@ -1,0 +1,31 @@
+
+.footer-menu ul {
+    padding: 2% 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.footer-menu li a {
+    padding: 12px;
+    margin: 3% 0;
+    color: #ffff;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.footer-menu li:nth-child(1) a:hover {color: rgb(255, 103, 102);}
+
+.footer-menu li:nth-child(2) a:hover {color: rgb(6, 194, 240);}
+
+.footer-menu li:nth-child(3) a:hover {color: rgb(150, 52, 250);}
+
+.footer-bottom {text-align: right;}
+
+.footer-bottom span{
+    color: gray;
+    font-size: 12px;
+}

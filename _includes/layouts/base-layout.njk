@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>{{pageTitle}}</title>
+
+    <link rel="preload" href={{ "/en-us/assets/css/style.css" | url }} as="style">
+    <link rel="stylesheet" href={{ "/en-us/assets/css/style.css" | url }}> 
+
+    <link rel="preload" href={{ "/en-us/assets/css/common.css" | url }} as="style">
+    <link rel="stylesheet" href={{ "/en-us/assets/css/common.css" | url }}> 
+    
+    <link rel="preload" href={{ "/en-us/assets/css/header/header.css" | url }} as="style">
+    <link rel="stylesheet" href={{ "/en-us/assets/css/header/header.css" | url }}>      
+
+    {% if pageStyle %}
+    <link rel="preload" href="/en-us/assets/css/{{ pageStyle }}.css" as="style">
+    <link rel="stylesheet" href="/en-us/assets/css/{{ pageStyle }}.css">
+    {% endif %}
+
+    <link rel="preload"  href={{ "/en-us/assets/css/footer/footer.css" | url }} as="style">
+    <link rel="stylesheet" href={{ "/en-us/assets/css/footer/footer.css" | url }}>     
+     
+</head>
+<body>  
+    {# container start #}
+    <div class="container">
+        {% include 'partials/_header.njk' %}
+        <main>
+            {{ content | safe }}
+        </main>
+        {% include 'partials/_footer.njk' %}        
+    </div>
+    {# container end #}
+</body>
+</html>

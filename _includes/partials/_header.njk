@@ -1,0 +1,23 @@
+<header class="header">
+    <div class="wrapper">
+        <div class="header-info">
+            <h1 class="logo">
+                <a href='/en-us' title='Giphy Filter'>
+                    <img src='{{ metadata.logo }}' alt='{{ metadata.sitename }}' loading='lazy'>
+                </a>
+            </h1>
+        </div>
+        <nav class="navigation">
+            <ul class="main-nav">
+                {% for item in menu.items %}
+                    <li>
+                        <a href='{{ item.url }}' title='{{ item.title }}'>{{item.title}}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <div class="collapse-nav">
+                <a class="nav-toggle">Menu</a>
+            </div>
+        </nav>
+    </div>
+</header>

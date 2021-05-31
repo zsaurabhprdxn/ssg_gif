@@ -1,0 +1,30 @@
+{
+  "name": "ssg_gif",
+  "version": "1.0.0",
+  "description": "A gif app",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsaurabhprdxn/ssg_gif.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsaurabhprdxn/ssg_gif/issues"
+  },
+  "homepage": "https://github.com/zsaurabhprdxn/ssg_gif#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.9.0",
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
+    "markdown-it": "^12.0.6",
+    "markdown-it-attrs": "^4.0.0",
+    "markdown-it-container": "^3.0.0"
+  }
+}

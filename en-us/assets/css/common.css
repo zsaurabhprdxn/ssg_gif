@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Press+Start+2P&display=swap');
+
+
+body {
+    background:  url('https://images.unsplash.com/photo-1604467581765-39485a42edeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80') no-repeat center  fixed;
+    background-size: cover;
+    /* background-color:rgb(13, 13, 13); */
+}
+
+main {padding-top: 3%;}

@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "title": "Home",
+            "url": "/en-us/"
+        },
+        {
+            "title": "Gifs",
+            "url": "/en-us/gifs/0"
+        },
+        {
+            "title": "About",
+            "url": "/en-us/about"
+        }
+    ]
+}

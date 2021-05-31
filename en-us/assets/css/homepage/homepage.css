@@ -1,0 +1,27 @@
+.heading {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.content p {
+    padding: 10px 0;
+    margin: 0 2%;
+    color: gray;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.content a {
+    color: gray;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.content a:hover {
+    color: indigo;
+    font-size: 14px;
+}

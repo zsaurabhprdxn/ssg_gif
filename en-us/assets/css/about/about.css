@@ -1,0 +1,16 @@
+p {
+    color: gray;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+a {
+    color: rgb(255, 103, 102);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+a:hover {
+    font-size: 15px;
+    text-decoration: none;
+}
