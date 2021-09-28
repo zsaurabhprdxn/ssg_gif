@@ -4,7 +4,7 @@ pageTitle: "Form"
 pageStyle: "form/form"
 ---
 
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
@@ -20,6 +20,7 @@ pageStyle: "form/form"
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
+  <div data-netlify-recaptcha="true"></div>
   <p>
     <button type="submit">Send</button>
   </p>
