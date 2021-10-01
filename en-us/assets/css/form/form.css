@@ -1,0 +1,105 @@
+/**
+  Start of Contact Us Form Styling: Contact Us Form page
+*/
+
+.contact-us-form-container form {width:100%;}
+
+.contact-us-form-container .contact-us-form-wrapper,
+.form-input-data input,
+.form-input-data select,
+.form-input-data textarea {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact-us-form-container .contact-us-form-wrapper {justify-content:space-between;}
+
+.contact-us-form-wrapper .form-input-data {
+  width: 100%;
+  margin-bottom:25px;
+}
+
+
+.form-input-data select {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #007BC7;
+  appearance: none;
+  color: #007BC7;
+  background: url('/en-us/assets/images/arrow-down.png') no-repeat 95%;
+}
+
+.form-input-data textarea {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #979797;
+  resize: none;
+}
+
+ .form-input-data input {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+ }
+
+ .form-input-data button {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: #007BC7;
+  color: #fff;
+  transition: all .3s ease-in-out;
+ }
+
+ .form-input-data button:hover {
+  background-color: #fff;
+  border: 1px solid #007BC7;
+  color: #007BC7;
+  cursor: pointer;
+ }
+
+ .form-input-data .field-error {
+  padding-top: 5px;
+  font-size: 12px;
+  color: #f23a3c; 
+ }
+
+ .form-input-data input.val-error,
+ .form-input-data select.val-error {
+  border: 1px solid #f23a3c;
+  box-shadow: 0 0 3px #f23a3c;
+ } 
+
+ .contact-form-thank-you img {
+  width: 80px;
+  margin: 16px auto;
+ }
+
+ .contact-form-thank-you {text-align:center;}
+
+ .contact-form-thank-you  a {color:#007BC7;}
+
+
+ @media screen and (min-width: 768px) {
+    .contact-us-form-container form {width:90%;}
+    .form-input-data select {width:45%;}
+
+    .contact-us-form-wrapper .form-input-data:nth-of-type(2),
+    .contact-us-form-wrapper .form-input-data:nth-of-type(3),
+    .contact-us-form-wrapper .form-input-data:nth-of-type(4),
+    .contact-us-form-wrapper .form-input-data:nth-of-type(5) {
+        width: 45%;
+    }
+    
+    .contact-us-form-wrapper .form-input-data:nth-of-type(9) {width:30%;}
+ }
+
+ @media screen and (min-width: 992px) {
+    .contact-us-form-container form {width:70%;}
+    .contact-us-form-wrapper .form-input-data:nth-of-type(9) {width:20%;}
+ }
