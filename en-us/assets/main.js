@@ -2,8 +2,8 @@
 const reCaptchaField = (err_msg, fieldName) => {
     if (grecaptcha.getResponse() == "") {
       fieldName.addClass('val-error');
-      fieldName.next('.field-error').text(err_msg);
-      fieldName.next('.field-error').show();
+      fieldName.next().text(err_msg);
+      fieldName.next().show();
     } else {
       fieldName.removeClass('val-error');
       fieldName.next().hide();
