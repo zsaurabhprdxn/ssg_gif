@@ -6,7 +6,7 @@ const reCaptchaField = (err_msg, fieldName) => {
       fieldName.next().next().show();
     } else {
       fieldName.removeClass('val-error');
-      fieldName.next().hide();
+      fieldName.next().next().hide();
     }
   }
 
