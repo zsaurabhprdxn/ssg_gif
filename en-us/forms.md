@@ -20,7 +20,9 @@ pageStyle: "form/form"
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
-  <div data-netlify-recaptcha="true"></div>
+  <div data-netlify-recaptcha="true">
+  <span class="field-error">The message</span>
+  </div>
   <p>
     <button type="submit">Send</button>
   </p>
