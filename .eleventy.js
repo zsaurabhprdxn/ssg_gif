@@ -4,6 +4,14 @@ const markdownItContainer = require("markdown-it-container");
 
 module.exports = function(config) {
     require("dotenv").config();
+    
+    const energyServicesForm1 = JSON.stringify(process.env.ENERGY_SERVICES_WTL);
+    console.log('env1 -->', typeof energyServicesForm1 );
+    console.log('env11 -->', energyServicesForm1 );
+    const energyServicesForm2 = JSON.parse(process.env.ENERGY_SERVICES_WTL);
+    console.log('env2 -->', typeof energyServicesForm2 );
+    console.log('env22 -->', energyServicesForm2 );
+
     config.addPassthroughCopy('en-us/assets');
 
 
