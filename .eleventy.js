@@ -10,7 +10,7 @@ module.exports = function(config) {
     console.log('env11 -->', energyServicesForm1 );
     const energyServicesForm2 = JSON.parse(process.env.ENERGY_SERVICES_WTL);
     console.log('env2 -->', typeof energyServicesForm2 );
-    console.log('env22 -->', energyServicesForm2 );
+    console.log('env22 -->', energyServicesForm2.actionUrl );
 
     config.addPassthroughCopy('en-us/assets');
 
