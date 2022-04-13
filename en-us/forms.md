@@ -37,7 +37,7 @@ pageStyle: "form/form"
             </div>
             <div class="form-input-data">
                 <label for="contact-form-zip">Zip Code</label>
-                <input  id="contact-form-zip" maxlength="5" name="zip" size="20" type="text" inputmode="decimal" pattern="[0-9]*" placeholder="Enter Zip Code in which you reside" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>
+                <input  id="contact-form-zip" maxlength="5" name="zip" size="20" type="hidden" inputmode="decimal" pattern="[0-9]*" placeholder="Enter Zip Code in which you reside" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"/>
                 <span class="field-error"></span>
             </div>
             <div class="form-input-data">
